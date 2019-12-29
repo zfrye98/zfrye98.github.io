@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+}
+
+.blue {
+    background-color: rgb(137, 207, 240);
+}
+
+.pink {
+    background-color: pink;
+}
+
+h1 {
+    font-size: 17vw;
+}
+
+h1.fade-in {
+    animation-name: fadeIn;
+    animation-duration: 4s ;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1.left {
+    text-align: left;
+    padding-top: 0vw;
+    padding-left: 2.5vw;
+}
+
+h1.right {
+    text-align: center;
+    padding-bottom: 15vw;
+    padding-right: 2.5vw;
+}
+
+img.one {
+    display: block;
+    margin: 4vw auto;
+    width: 70vw;
+    height: 50vw;
+    object-fit: cover;
+    border: 1vw solid white;
+}
+
+p {
+    font-size: 4vw;
+    padding: 4vw 15vw;
+}
+
+img.two {
+    margin-bottom: 1vw;
+    width: 45vw;
+    object-fit: cover;
+    border: 1vw solid white;
+    transform: rotate(180deg);
+}
+
+div.left {
+    padding-top: 4vw;
+    padding-left: 15vw;
+    text-align: left;
+}
+
+div.middle {
+    text-align: center;
+}
+
+div.right {
+    padding-right: 15vw;
+    padding-bottom: 4vw;
+    text-align: right;
+}
+
+img.three {
+    margin: 4vw 2vw;
+    width: 30vw;
+    object-fit: cover;
+    border: 1vw solid white;
+}
+
+img.four {
+    margin: 4vw;
+    height: 30vw;
+    width: 30vw;
+    object-fit: cover;
+    border: 1vw solid white;
+}
+
+img.five {
+    transform: rotate(90deg);
+    /* margin: 4vw 2vw; */
+    height: 30vw;
+    width: 30vw;
+    object-fit: cover;
+    border: 1vw solid white;
+}
+
+img.six {
+    margin: 4vw;
+    height: 30vw;
+    width: 30vw;
+    object-fit: cover;
+    border: 1vw solid white;
+}
+
+img.seven {
+    margin: 4vw 2vw;
+    height: 40vw;
+    width: 40vw;
+    object-fit: cover;
+    border: 1vw solid white;
+    transform: rotate(90deg);
+}
+
+img.sexy1 {
+    object-position: 80%;
+}
+
+img.sexy2 {
+    object-position: 95%;
+}
+
+img.eight {
+    margin: 4vw 2vw;
+    height: 40vw;
+    width: 30vw;
+    object-fit: cover;
+    border: 1vw solid white;
+}
+
+img.nine {
+    margin: 4vw 2vw;
+    width: 50vw;
+    object-fit: cover;
+    border: 1vw solid white;
+    transform: rotate(180deg);
+}
+
+p.middle {
+    text-align: center;
+}
